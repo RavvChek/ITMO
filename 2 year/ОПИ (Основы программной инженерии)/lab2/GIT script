@@ -1,0 +1,164 @@
+GIT script
+
+#git config --global "user.name"="ravvcheck1"
+#git config --global "user.email"="ravvcheck1@gmail.com"
+#git config --global "user.name"="ravvcheck2"
+#git config --global "user.email"="ravvcheck2@gmail.com"
+
+git init gitRepository
+git config --global "user.name" "ravvcheck1"
+git config --global "user.email" "ravvcheck1@gmail.com"
+
+
+#r1
+cp -rf ~/commits/commit0/* ./
+git add .
+git commit -m "r0"
+
+#смена автора
+git config --global "user.name" "ravvcheck2"
+git config --global "user.email" "ravvcheck2@gmail.com"
+
+#создание новой ветки и переключение на неё
+git branch feature1
+git checkout feature1
+
+#r1
+cp -rf ~/commits/commit1/* ./
+git add .
+git commit -m "r1"
+
+#создание новой ветки и переключение на неё
+git branch feature2
+git checkout feature2
+
+#r2
+cp -rf ~/commits/commit2/* ./
+git add .
+git commit -m "r2"
+
+#смена автора
+git config --global "user.name" "ravvcheck1"
+git config --global "user.email" "ravvcheck1@gmail.com"
+
+#переход на другую ветку
+git checkout master
+
+#r3
+cp -rf ~/commits/commit3/* ./
+git add .
+git commit -m "r3"
+
+#r4
+cp -rf ~/commits/commit4/* ./
+git add .
+git commit -m "r4"
+
+#r5
+cp -rf ~/commits/commit5/* ./
+git add .
+git commit -m "r5"
+
+#r6
+cp -rf ~/commits/commit6/* ./
+git add .
+git commit -m "r6"
+
+#r7
+cp -rf ~/commits/commit7/* ./
+git add .
+git commit -m "r7"
+
+#смена автора
+git config --global "user.name" "ravvcheck2"
+git config --global "user.email" "ravvcheck2@gmail.com"
+
+#смена ветки
+git checkout feature1
+
+#r8
+cp -rf ~/commits/commit8/* ./
+git add .
+git commit -m "r8"
+
+#r9
+cp -rf ~/commits/commit9/* ./
+git add .
+git commit -m "r9"
+
+#переход на другую ветку
+git checkout feature2
+
+#r10
+cp -rf ~/commits/commit10/* ./
+git add .
+git commit -m "r10"
+
+#r11
+cp -rf ~/commits/commit11/* ./
+git add .
+git commit -m "r11"
+
+#смена автора
+git config --global "user.name" "ravvcheck1"
+git config --global "user.email" "ravvcheck1@gmail.com"
+
+#переход на другую ветку
+git checkout master
+
+#слияние веток
+git merge feature2
+
+#CONFLICT:
+#Auto-merging I.java
+#CONFLICT (content): Merge conflict in I.java
+#Automerging K.java
+#CONFLICT (content): Merge conflict in K.java
+
+git checkout --ours I.java
+git checkout --ours K.java
+git add .
+git merge --continue
+
+#r12
+cp -rf ~/commits/commit12/* ./
+git add .
+git commit -m "r12"
+
+#смена автора
+git config --global "user.name" "ravvcheck2"
+git config --global "user.email" "ravvcheck2@gmail.com"
+
+#переход на другую ветку
+git checkout feature1 
+
+#r13
+cp -rf ~/commits/commit13/* ./
+git add .
+git commit -m "r13"
+
+#смена автора
+git config --global "user.name" "ravvcheck1"
+git config --global "user.email" "ravvcheck1@gmail.com"
+
+#переход на другую ветку
+git checkout master
+
+#слияние веток
+git merge feature1
+
+#CONFLICT:
+#Auto-merging I.java
+#CONFLICT (content): Merge conflict in I.java
+#Auto-merging K.java
+#CONFLICT (content): Merge conflict in K.java
+
+git checkout --theirs I.java
+git checkout --ours K.java
+git add .
+git merge --continue
+
+#r14
+cp -rf ~/commits/commit14/* ./
+git add .
+git commit -m "r14"
