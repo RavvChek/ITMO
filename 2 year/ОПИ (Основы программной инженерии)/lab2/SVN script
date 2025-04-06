@@ -1,0 +1,115 @@
+#SVN script
+
+svnadmin create svnRepository
+cd svnRepository
+PATHF=file:///home/studs/s367086/lab2OPI/svnRepository
+svn mkdir ${PATHF}/trunk ${PATHF}/branches ${PATHF}/tags -m "create repository" --username="ravvcheck1"
+svn checkout ${PATHF}/trunk workspace
+cd workspace
+
+#r0
+cp -rf ~/commits/commit0/* ./
+svn add *
+svn commit -m "r0" --username="ravvcheck1"
+
+#создание новой ветки
+svn copy ${PATHF}/trunk/ ${PATHF}/branches/feature1 -m "feature1" --username="ravvcheck2"
+
+#переход на другую ветку
+svn switch ${PATHF}/branches/feature1
+
+#r1
+cp -rf ~/commits/commit1/* ./
+svn add --force *
+svn commit -m "r1" --username="ravvcheck2"
+
+#создание новой ветки
+svn copy ${PATHF}/branches/feature1 ${PATHF}/branches/feature2 -m "feature2" --username="ravvcheck2"
+
+#переход на другую ветку
+svn switch ${PATHF}/branches/feature2
+
+#r2
+cp -rf ~/commits/commit2/* ./
+svn add --force *
+svn commit -m "r2" --username="ravvcheck2"
+
+#переход на другую ветку
+svn switch ${PATHF}/trunk
+
+#r3
+cp -rf ~/commits/commit3/* ./
+svn add --force *
+svn commit -m "r3" --username="ravvcheck1"
+
+#r4
+cp -rf ~/commits/commit4/* ./
+svn add --force *
+svn commit -m "r4" --username="ravvcheck1"
+
+#r5
+cp -rf ~/commits/commit5/* ./
+svn add --force *
+svn commit -m "r5" --username="ravvcheck1"
+
+#r6
+cp -rf ~/commits/commit6/* ./
+svn add --force *
+svn commit -m "r6" --username="ravvcheck1"
+
+#r7
+cp -rf ~/commits/commit7/* ./
+svn add --force *
+svn commit -m "r7" --username="ravvcheck1"
+
+#переход на другую ветку
+svn switch ${PATHF}/branches/feature1
+
+#r8
+cp -rf ~/commits/commit8/* ./
+svn add --force *
+svn commit -m "r8" --username="ravvcheck2"
+
+#r9
+cp -rf ~/commits/commit9/* ./
+svn add --force *
+svn commit -m "r9" --username="ravvcheck2"
+
+#переход на другую ветку
+svn switch ${PATHF}/branches/feature2
+
+#r10
+cp -rf ~/commits/commit10/* ./
+svn add *
+svn commit -m "r10" --username="ravvcheck2"
+
+#r11
+cp -rf ~/commits/commit11/* ./
+svn add --force *
+svn commit -m "r11" --username="ravvcheck2"
+
+#слияние веток
+svn update
+svn merge ${PATHF}/branches/feature2 ${PATHF}/trunk --username="ravvcheck1"
+
+#r12
+cp -rf ~/commits/commit12/* ./
+svn add --force *
+svn commit -m "r12" --username="ravvcheck1"
+
+#переход на другую ветку
+svn switch ${PATHF}/branches/feature1
+
+#r13
+cp -rf ~/commits/commit13/* ./
+svn add --force *
+svn commit -m "r13" --username="ravvcheck2"
+
+#слияние веток
+svn update
+svn merge ${PATHF}/branches/feature1 ${PATHF}/trunk
+
+#r14
+cp -rf ~/commits/commit14/* ./
+svn add --force *
+svn commit -m "r14" --username="ravvcheck1"
