@@ -1,0 +1,97 @@
+тcd 
+mkdir lab0
+cd lab0
+mkdir azurill3
+mkdir skuntank6
+touch vanilluxe7
+echo "weight=126.8" > vanilluxe7
+echo "height=51.0 atk=10 def=9" >> vanilluxe7
+touch weedle0
+echo "Способности Poison Sting String" > weedle0
+echo "Shot Bug Bite" >> weedle0
+touch yanma8
+echo "satk=8 sdef=5 spd=10" > yanma8
+mkdir zweilous6
+cd azurill3
+touch pelipper
+echo "Тип диеты Omnivore" > pelipper
+touch cloyster
+echo "weight=292.1 height=59.0" > cloyster
+echo "atk=10 def=18" >> cloyster
+touch silcoon
+echo "weight=22.0 height=24.0 atk=4" > silcoon
+echo "def=6" >> silcoon
+cd .. 
+cd skuntank6
+mkdir gabite
+mkdir beldum
+mkdir eelektross
+mkdir deino
+touch dragonair
+echo "Живет Cave Freshwater" > dragonair
+cd .. 
+cd zweilous6
+touch scolipede
+echo "Тип покемона" > scolipede
+echo "BIG POISON" >> scolipede
+mkdir mantine
+touch charmeleon
+echo "Тип покемона FIRE NONE" > charmeleon
+mkdir zweilous
+touch staravia
+echo "Способности" > staravia
+echo "Quick Attack Wing Attack Double Team Endeavor Whirlwind Aerial Ace" >> staravia
+echo "Take Down Agility Brave Bird Final Gambit" >> staravia
+cd 
+chmod u-w,og+wrx,u+rx ./lab0/azurill3
+chmod 004 ./lab0/azurill3/pelipper
+cd lab0
+cd azurill3
+chmod 400 cloyster
+chmod 404 silcoon
+cd .. 
+chmod 755 scuntank6
+cd skuntank6
+chmod u+rx,g+wx,o+rwx gabite
+chmod ugo=rwx beldum
+chmod 357 eelektross
+chmod 357 deino
+chmod 066 dragonair
+cd .. 
+chmod uo=r,g= vanilluxe7
+chmod 044 weedle
+chmod ugo=r yanma8
+chmod 551 zweilous6
+cd .. 
+cd zweilous6
+chmod 664 scolipede
+chmod 555 mantine
+chmod u=rw,g=w charmeleon
+chmod 500 zweilous
+chmod 660 staravia
+cd 
+cp vanilluxe7 lab0/zweilous6/zweilous
+cd lab0/azurill3 
+touch silcoonvanilluxe
+cd 
+cat vanilluxe7 > lab0/azurill3/silcoonvanilluxe
+touch lab0/vanilluxe7_66
+cd lab0
+cat skuntank6/dragonair zweilous6/scolipede > vanilluxe7_66 
+ln -s weedle0 skuntank6/deino
+cd 
+cd lab0
+ln -s skuntank6 Copy_78
+cd 
+cd lab0
+cp -recursive skuntank6 la0/skuntank6/deino
+cd lab0/zweilous6 
+ln ../weedle0 charmeleonweedle
+cd 
+cd lab0/skuntank6
+mkdir tmp
+touch file_wc
+cat * | wc -l > tmp/file_wc
+
+
+
