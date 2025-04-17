@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="part1.TaylorSeriesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-02-21T16:22:43" hostname="RAVVCHECK" time="0.042">
+  <properties/>
+  <testcase name="Check boundary values sin(x)" classname="part1.TaylorSeriesTest" time="0.021"/>
+  <testcase name="Check count of terms sin(x)" classname="part1.TaylorSeriesTest" time="0.002"/>
+  <testcase name="Check base table values sin(x)" classname="part1.TaylorSeriesTest" time="0.008"/>
+  <testcase name="Check random values sin(x)" classname="part1.TaylorSeriesTest" time="0.007"/>
+  <system-out><![CDATA[Running tests of the Taylor Series for sin(x)...
+Argument: 0.0 degrees
+Real value: 0.0
+Approximate value: 0.0
+
+Argument: 180 degrees
+Real value: 0,00000
+Approximate value: 0,00000
+
+Argument: -180 degrees
+Real value: -0,00000
+Approximate value: -0,00000
+
+Argument: -90 degrees
+Real value: -1,00000
+Approximate value: -1,00000
+
+Argument: 90 degrees
+Real value: 1,00000
+Approximate value: 1,00000
+
+Argument: 45 degrees
+Real value: 0,70711
+Approximate value: 0,70711
+
+Argument: -45 degrees
+Real value: -0,70711
+Approximate value: -0,70711
+
+Argument: 60 degrees
+Real value: 0,86603
+Approximate value: 0,86603
+
+Argument: -60 degrees
+Real value: -0,86603
+Approximate value: -0,86603
+
+Argument: 30 degrees
+Real value: 0,50000
+Approximate value: 0,50000
+
+Argument: 135 degrees
+Real value: 0,70711
+Approximate value: 0,70711
+
+Argument: 53 degrees
+Real value: 0,79864
+Approximate value: 0,79864
+
+Argument: 190 degrees
+Real value: -0,17365
+Approximate value: -0,17365
+
+Argument: -261 degrees
+Real value: 0,98769
+Approximate value: 0,98771
+
+Ending tests of the Taylor Series for sin(x)...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

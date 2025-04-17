@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="part3.DomainModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-21T16:22:43" hostname="RAVVCHECK" time="0.014">
+  <properties/>
+  <testcase name="Check constructor character" classname="part3.DomainModelTest" time="0.001"/>
+  <testcase name="Check availability look around character's" classname="part3.DomainModelTest" time="0.002"/>
+  <testcase name="Check calc volume materials" classname="part3.DomainModelTest" time="0.001"/>
+  <testcase name="Check gets blinded" classname="part3.DomainModelTest" time="0.002"/>
+  <testcase name="Check brightness" classname="part3.DomainModelTest" time="0.001"/>
+  <system-out><![CDATA[Running tests of domain model...
+
+Zofand looking around
+
+Ending tests of domain model...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

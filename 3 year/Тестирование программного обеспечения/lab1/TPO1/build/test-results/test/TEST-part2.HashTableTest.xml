@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="part2.HashTableTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-02-21T16:22:43" hostname="RAVVCHECK" time="0.122">
+  <properties/>
+  <testcase name="Check insert function" classname="part2.HashTableTest" time="0.063"/>
+  <testcase name="Check insert with collision" classname="part2.HashTableTest" time="0.001"/>
+  <testcase name="Check delete function" classname="part2.HashTableTest" time="0.003"/>
+  <testcase name="Check search function" classname="part2.HashTableTest" time="0.001"/>
+  <testcase name="Check full hash table function" classname="part2.HashTableTest" time="0.011"/>
+  <testcase name="Check seq of elements" classname="part2.HashTableTest" time="0.007"/>
+  <testcase name="Check cpacity hash table" classname="part2.HashTableTest" time="0.006"/>
+  <testcase name="Check collision on insertion" classname="part2.HashTableTest" time="0.005"/>
+  <testcase name="Check empty table" classname="part2.HashTableTest" time="0.002"/>
+  <testcase name="testFullCycleSearch()" classname="part2.HashTableTest" time="0.001"/>
+  <testcase name="testInsertAfterDeletion()" classname="part2.HashTableTest" time="0.002"/>
+  <system-out><![CDATA[Running tests of the Hash Table function...
+Test1
+
+Test2
+
+Test3
+
+Test4
+
+Size: 5
+Capacity: 5
+Ending tests of the Hash Table function...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
