@@ -17,9 +17,6 @@ abstract public class BaseTest {
     protected static List<WebDriver> drivers;
     protected static final String URL = "https://my.itmo.ru/";
 
-    protected static final String username = "ravvcheck";
-    protected static final String password = "18monadu18";
-
     @BeforeEach
     public void setUp() {
         drivers = new ArrayList<>();
