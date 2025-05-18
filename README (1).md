@@ -17,7 +17,7 @@
 |  ДА |  1   |                                                 [two sum](https://leetcode.com/problems/two-sum/)                                                 |    **Easy**    |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/1.go)   |
 |  ДА |  23  |                                    [merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                    |    **Hard**    |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/23.go)  |
 |   | 567  |                                   [permutation in string](https://leetcode.com/problems/permutation-in-string/)                                   |   **Medium**   | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/567.go)  |
-|   |  56  |                                         [merge intervals](https://leetcode.com/problems/merge-intervals/)                                         |   **Medium**   |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/56.go)  |
+|  ДА |  56  |                                         [merge intervals](https://leetcode.com/problems/merge-intervals/)                                         |   **Medium**   |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/56.go)  |
 |   | 933  |                                  [number of recent calls](https://leetcode.com/problems/number-of-recent-calls/)                                  |    **Easy**    | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/933.go)  |
 |   |  98  |                             [validate binary search tree](https://leetcode.com/problems/validate-binary-search-tree/)                             |   **Medium**   |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/98.go)  |
 |   | 232  |                            [implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/)                            |    **Easy**    | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/232.go)  |
@@ -57,4 +57,4 @@
 
 | Status  |  #  |                               Title                               | **Difficulty** |                                    Solution                                    |
 | :-----: | :-: | :---------------------------------------------------------------: | :------------: | :----------------------------------------------------------------------------: |
-| &#9744; |  7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |    **Easy**    | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/7.go) |
+| ДА |  7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |    **Easy**    | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/7.go) |
