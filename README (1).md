@@ -50,7 +50,7 @@
 |   | 279  |                                         [perfect squares](https://leetcode.com/problems/perfect-squares/)                                         |   **Medium**   | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/279.go)  |
 |   |  28  |                                        [implement strstr](https://leetcode.com/problems/implement-strstr/)                                        |    **Easy**    |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/28.go)  |
 |   | 238  |                            [product of array except self](https://leetcode.com/problems/product-of-array-except-self/)                            |   **Medium**   | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/238.go)  |
-|   |  71  |                                           [simplify path](https://leetcode.com/problems/simplify-path/)                                           |   **Medium**   |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/71.go)  |
+| ДА     |   **Medium**   |  [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/71.go)  |
 |   | 234  |                                  [palindrome linked list](https://leetcode.com/problems/palindrome-linked-list/)                                  |    **Easy**    | [here](https://github.com/VanjaRo/LeetCodeTasksForYandex/blob/main/tasks/234.go)  |
 
 # LeetCode tasks for practice
