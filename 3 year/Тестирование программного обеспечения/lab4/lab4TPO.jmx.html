@@ -1,0 +1,179 @@
+<!DOCTYPE HTML><html xmlns:jmeter="http://jmeter.apache.org/">
+   <title>Schematic view of Test Plan</title>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>
+ul.tree, ul.tree ul {
+    list-style-type: none;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKAQMAAABPHKYJAAAAA1BMVEWIiIhYZW6zAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH1ggGExMZBky19AAAAAtJREFUCNdjYMAEAAAUAAHlhrBKAAAAAElFTkSuQmCC') repeat-y;
+    margin: 0;
+    padding: 0;
+}
+ul.tree ul {
+    margin-left: 10px;
+}
+ul.tree li {
+    margin: 0;
+    padding: 0 12px;
+    line-height: 20px;
+    background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAUAQMAAACK1e4oAAAABlBMVEUAAwCIiIgd2JB2AAAAAXRSTlMAQObYZgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YIBhQIJYVaFGwAAAARSURBVAjXY2hgQIf/GTDFGgDSkwqATqpCHAAAAABJRU5ErkJggg==') no-repeat;
+    color: #369;
+}
+ul.tree li:last-child {
+    background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAUAQMAAACK1e4oAAAABlBMVEUAAwCIiIgd2JB2AAAAAXRSTlMAQObYZgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9YIBhQIIhs+gc8AAAAQSURBVAjXY2hgQIf/GbAAAKCTBYBUjWvCAAAAAElFTkSuQmCC') no-repeat;
+}
+</style>
+   </head>
+   <body>
+      <ul class="tree" id="tree">
+         <li><b>load test </b>
+            "lab4TPO" 
+            (globalVars:[],
+            executeTearDownThreadsOnShutdown: )
+            <br>
+            &nbsp;&nbsp;&nbsp;Comments: <i style="color:green">Testing</i></li>
+         <li>
+            <ul>
+               <li><b>run</b>
+                  "config 1" 
+                  (
+                  threads: "",
+                  loops: "20",
+                  ramp-up: ""
+                  )
+                  </li>
+               <li>
+                  <ul>
+                     <li><b>http request</b>
+                        "HTTP Request 1" 
+                        (method: "GET",
+                        url: "
+                        http://localhost:34543//",
+                        
+                        body: [
+                        
+                        "token"=
+                        "495351469"
+                        ,
+                        "user"=
+                        "2105057934"
+                        ,
+                        "config"=
+                        "1"
+                        
+                        ]
+                        ,
+                        upload-files: [
+                        
+                        ]
+                        )
+                        </li>
+                     <li><b>DurationAssertion</b>
+                        "Duration Assertion" </li>
+                     <li><b>ConstantThroughputTimer</b>
+                        "Constant Throughput Timer" </li>
+                     <li><b>write samples</b>
+                        "View Results in Table" </li>
+                     <li><b>write samples</b>
+                        "Graph Results" </li>
+                  </ul>
+               </li>
+               <li><b>run</b>
+                  "config 2" 
+                  (
+                  threads: "",
+                  loops: "20",
+                  ramp-up: ""
+                  )
+                  </li>
+               <li>
+                  <ul>
+                     <li><b>http request</b>
+                        "HTTP Request 2" 
+                        (method: "GET",
+                        url: "
+                        http://localhost:34543//",
+                        
+                        body: [
+                        
+                        "token"=
+                        "495351469"
+                        ,
+                        "user"=
+                        "2105057934"
+                        ,
+                        "config"=
+                        "2"
+                        
+                        ]
+                        ,
+                        upload-files: [
+                        
+                        ]
+                        )
+                        </li>
+                     <li><b>DurationAssertion</b>
+                        "Duration Assertion" </li>
+                     <li><b>ConstantThroughputTimer</b>
+                        "Constant Throughput Timer" </li>
+                     <li><b>write samples</b>
+                        "View Results in Table" </li>
+                     <li><b>write samples</b>
+                        "Graph Results" </li>
+                  </ul>
+               </li>
+               <li><b>run</b>
+                  "config 3" 
+                  (
+                  threads: "",
+                  loops: "20",
+                  ramp-up: ""
+                  )
+                  </li>
+               <li>
+                  <ul>
+                     <li><b>http request</b>
+                        "HTTP Request 3" 
+                        (method: "GET",
+                        url: "
+                        http://localhost:34543//",
+                        
+                        body: [
+                        
+                        "token"=
+                        "495351469"
+                        ,
+                        "user"=
+                        "2105057934"
+                        ,
+                        "config"=
+                        "3"
+                        
+                        ]
+                        ,
+                        upload-files: [
+                        
+                        ]
+                        )
+                        </li>
+                     <li><b>DurationAssertion</b>
+                        "Duration Assertion" </li>
+                     <li><b>ConstantThroughputTimer</b>
+                        "Constant Throughput Timer" </li>
+                     <li><b>write samples</b>
+                        "View Results in Table" </li>
+                     <li><b>write samples</b>
+                        "Graph Results" </li>
+                  </ul>
+               </li>
+               <li><b>write samples</b>
+                  "Aggregate Graph" </li>
+               <li><b>write samples</b>
+                  "Response Time Graph" </li>
+               <li><b>write samples</b>
+                  "Aggregate Report" </li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>
